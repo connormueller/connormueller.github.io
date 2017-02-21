@@ -1,0 +1,4 @@
+body {background-color: #000000; font-family: "times new roman", times, serif;}
+ul {list-style-type: none; margin: 0;	padding: 0; overflow: hidden; background-color: #333;}
+table#comptable {width:100%; border-collapse: collapse; border: 2px black;}
+table#tvtable {width:100%; border-collapse: collapse; border: 2px black;}
