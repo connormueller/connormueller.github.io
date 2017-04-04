@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css" >
-
+  <script src="myscript"></script>
   <title>Connor's Electronics</title>
   <meta name="description" content="HTML5 Template">
 
@@ -17,6 +17,14 @@
 	<li><a href="ContactUs.html">Contact Us </li></a>
 </ul>
 </head>
+
+<div class="footer">
+<h2><p style="text-align:center;">Today is:</h2>
+<p id="date">
+<script src="myscript.js"></script>
+</p>
+</div>
+
 <body>
 <h2> Contact Us </h2>
 
@@ -24,15 +32,16 @@
 
 <table>
 <tr>
-<th><form action="">
-First Name: <br><input type="text" name="firstname"><br>
-Last Name: <br><input type="text" name="lastname"><br>
-Email Address: <br><input type="text" name="emailaddress"><br>
+<th><form name="contactform" action="/action_page_post.php" onsubmit="return validateForm()" method="post">
+First Name: <br><input id="a" type="text" name="firstname"><br>
+Last Name: <br><input id="b" type="text" name="lastname"><br>
+Email Address: <br><input id="c" type="text" name="emailaddress"><br>
 <input type="Radio" name="Option" vaule="orderstatusupdate"> Order Status Update <br>
 <input type="Radio" name="Option" vaule="question">Question <br>
 <input type="Radio" name="Option" vaule="problem"> Problem <br>
-</form>
-<form action=""> <div><textarea name="Comments" id="Comments"> Comment here </textarea></div>
+
+<div><textarea name="Comments" id="Comments"> Comment here </textarea></div>
 <input type="Submit" value="Submit">
 <input type="Reset" value= "Reset" >
 </body>
+<script src="myscript"></script>
