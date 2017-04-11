@@ -10,12 +10,7 @@
 
 <h1> Connor's Electronics </h1>
 <img id="logo" src="connorlogo.png.png" alt="Connor's Electronics logo" style="width:120px; height:80px;" align="right">
-<ul id="navigation">
-	<li><a href="index.htm">Home </li></a>
-	<li><a href="Computers.html">Computers</li></a>
-	<li><a href="Televisions.html">Televisions</li></a>
-	<li><a href="ContactUs.html">Contact Us </li></a>
-</ul>
+
 </head>
 
 <div class="footer">
@@ -25,6 +20,21 @@
 </p>
 </div>
 
+<div class="dropdown">
+	<button class="dropbtn1">Menu</button>
+  <div class="dropdown-content">
+    <a href="index.htm">Home</a>
+    <a href="ContactUs.html">Contact Us</a>
+    <div class="dropdown2">
+                <a onclick="productMenu()" id="productsLink" class="dropbtn2">Products &#8594;</a>
+                <div id="myDropdown" class="dropdown-content2">
+                    <a tabindex="-1" href="Televisions.html">Televisions</a>
+                    <a tabindex="-1" href="Computers.html">Computers</a>
+                </div>
+        </div>
+  </div>
+</div>
+<script src="myscript.js"></script>
 <body>
 <h2> Contact Us </h2>
 
