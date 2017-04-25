@@ -41,27 +41,51 @@
 <img id="logo" src="connorlogo.png.png" alt="Connor's Electronics logo" style="width:120px; height:80px;" align="right">
 
 <h2> Computers </h2>
-<table id="comptable">
-<tr>
-	<th>Asus Computer</th>
-	<th>Dell Computer</th>
-	<th>Apple Computer</th>
-	<th>HP Computer</th>
-	<th>Lenovo Computer</th>
 
- <tr>
- 	<td><img width ="300" height="300" src="asuspc.jpg"></td>
- 	<td><img width ="300" height="300" src="dellpc.jpg"></td>
- 	<td><img width ="300" height="300" src="applepc.jpg"></td>
- 	<td><img width ="300" height="300" src="hppc.jpg"></td>
- 	<td><img width ="300" height="300" src="lenovopc.jpg"></td>
- </tr>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="applepc.jpg" style="width:100%">
+    <div class="text">Apple PC</div>
+  </div>
 
-<tr>
-	<td>Asus ROG Core i7 16GB RAM Gaming Desktop - $1,399.00</td>
-	<td>Dell Insprion 3650 Decktop Core i5 12GB RAM - $699.00 </td>
-	<td>Apple iMac Core i5 8GB RAM - $999.99</td>
-	<td>HP All-in-one Desktop Core i5 4GB RAM - $499.96</td>
-	<td>Lenovo 710 Core i5 8GB RAM - $649.99</td>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="asuspc.jpg" style="width:100%">
+    <div class="text">Asus PC</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="dellpc.jpg" style="width:100%">
+    <div class="text">Dell PC</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="hppc.jpg" style="width:100%">
+    <div class="text">HP PC</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="lenovopc.jpg" style="width:100%">
+    <div class="text">Lenovo PC</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
 
 </body>
+<script src="myscript.js"></script>
+</html>
