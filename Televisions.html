@@ -34,33 +34,58 @@
         </div>
   </div>
 </div>
-<script src="myscript.js"></script>
+
 
 <body>
 <img id="logo" src="connorlogo.png.png" alt="Connor's Electronics logo" style="width:120px; height:80px;" align="right">
 
 <h2> Televisions </h2>
-<table id="tvtable">
-<tr>
-	<th>Samsung TV</th>
-	<th>Vizio TV</th>
-	<th>Philips TV</th>
-	<th>Sony TV</th>
-	<th>LG TV</th>
 
- <tr>
- 	<td><img width ="300" height="300" src="samsungtv.jpg"></td>
- 	<td><img width ="300" height="300" src="viziotv.jpg"></td>
- 	<td><img width ="300" height="300" src="philipstv.jpg"></td>
- 	<td><img width ="300" height="300" src="sonytv.jpg"></td>
- 	<td><img width ="300" height="300" src="lgtv.jpg"></td>
- </tr>
 
-<tr>
-	<td>Samsung 55" LED Smart TV 4K UltraHD - $699.99</td>
-	<td>Vizio 50" LED Smart TV 1080p - $398.00</td>
-	<td>Philips 43" LED TV 1080p - $599.00</td>
-	<td>Sony 55" LED Smart TV 4K UltraHD - $1,099.99</td>
-	<td>LG 55" LED Smart TV 4K UltraHD - $697</td>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="lgtv.jpg" style="width:100%">
+    <div class="text">LG TV</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="philipstv.jpg" style="width:100%">
+    <div class="text">Philips TV</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="samsungtv.jpg" style="width:100%">
+    <div class="text">Samsung TV</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="sonytv.jpg" style="width:100%">
+    <div class="text">Sony TV</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="viziotv.jpg" style="width:100%">
+    <div class="text">Vizio TV</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
 
 </body>
+<script src="myscript.js"></script>
+</html>
