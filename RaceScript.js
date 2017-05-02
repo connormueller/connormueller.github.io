@@ -122,8 +122,7 @@ function MoveCars()
     
 
         
-        var backgroundAmt = Math.max(car1Amt, car2Amt, car3Amt);       
-        document.getElementById("backgroundContainer").style.left = (backgroundAmt - (window.innerWidth / 20)).toString() + "px";
+        
        
     }
 
