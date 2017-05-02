@@ -45,7 +45,7 @@ function GameStarted()
         running = true;
 
         document.getElementById("message").style.visibility = "hidden";
-        document.getElementById("startButton").style.backgroundImage = "greenlight.jpg";
+        document.getElementById("startButton").style.backgroundImage = "url(greenlight.jpg)";
         document.getElementById("car1img").src = "car1.jpg";
         document.getElementById("car2img").src = "car2.jpg";
         document.getElementById("car3img").src = "car3.jpg";
