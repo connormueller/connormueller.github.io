@@ -1,5 +1,3 @@
-
-
 .overlay{
   position:fixed;
   background-color: black;
@@ -18,7 +16,7 @@
 
 .overlay2{
   position:fixed;
-    
+    background-color: black;
  -webkit-animation:275s scroll infinite linear;
   -moz-animation:275s scroll infinite linear;
   -o-animation:275s scroll infinite linear;
@@ -33,7 +31,7 @@
 
 .overlay3{
   position:fixed;
-    
+      background-color: black;
  -webkit-animation:250s scroll infinite linear;
   -moz-animation:250s scroll infinite linear;
   -o-animation:250s scroll infinite linear;
