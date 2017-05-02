@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="urf-8">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<title>The Great Race</title>
+	<meta name="description" content="HTML5 Template">
+</head>
+<body onload="DynamicSizes()">
+	<div class="overlay" id="over1">
+		<div class="overlay2" id="over2">
+			<div class="overlay3" id="over3">
+				<div class="title">
+					The Great Race
+				</div>
+				<div class="transition">
+					<a onclick="Reset()" id="message" class="message">Click the red light to begin.</a>
+					<div class="golight"><a id="startButton" onclick="GameStarted()" class="lightButton"></a></div>
+					<div id="car1" class="car"><img id="car1img" class="transition" src="car1.jpg" style="width: 100px; height: 100px; " /></div>
+					<div id="car2" class="car"><img id="car2img" class="transition" src="car2.jpg" style="width: 100px; height: 100px; " /></div>
+					<div id="car3" class="car"><img id="car3img" class="transition" src="car3.jpg" style="width: 100px; height: 100px; " /></div>
+				</div>
+			</div>
+		</div>
+
+		<script src="RaceScript.js"></script>
+	</body>
+	</html>
