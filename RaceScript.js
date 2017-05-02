@@ -137,13 +137,13 @@ function MoveCars()
         var winner = Math.max(car1Left, car2Left, car3Left);
 
         if (car1Left == winner) {
-            document.getElementById("message").innerText = "Car 1 is the Winner! To reset press here.";
+            document.getElementById("message").innerText = "Car 1 is the Winner! To restart, press here.";
             
         } else if (car2Left == winner) {
-            document.getElementById("message").innerText = "Car 2 is the Winner! To reset press here.";
+            document.getElementById("message").innerText = "Car 2 is the Winner! To restart, press here.";
             
         } else if (car3Left == winner) {
-            document.getElementById("message").innerText = "Car 3 is the Winner! To reset press here.";
+            document.getElementById("message").innerText = "Car 3 is the Winner! To restart, press here.";
             
         
         }         
