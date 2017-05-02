@@ -130,6 +130,7 @@ function MoveCars()
         running = false;
         document.getElementById("startButton").style.backgroundImage = "redlight.png";
         document.getElementById("message").style.visibility = "visible";
+
         document.getElementById("car1img").src = "car1.jpg";
         document.getElementById("car2img").src = "car2.jpg";
         document.getElementById("car3img").src = "car3.jpg";
@@ -137,13 +138,13 @@ function MoveCars()
         var winner = Math.max(car1Left, car2Left, car3Left);
 
         if (car1Left == winner) {
-            document.getElementById("message").innerText = "Car 1 is the Winner! To restart, press here.";
+            document.getElementById("message").innerText = "Car 1 is the winner! To restart, press here.";
             
         } else if (car2Left == winner) {
-            document.getElementById("message").innerText = "Car 2 is the Winner! To restart, press here.";
+            document.getElementById("message").innerText = "Car 2 is the winner! To restart, press here.";
             
         } else if (car3Left == winner) {
-            document.getElementById("message").innerText = "Car 3 is the Winner! To restart, press here.";
+            document.getElementById("message").innerText = "Car 3 is the winner! To restart, press here.";
             
         
         }         
