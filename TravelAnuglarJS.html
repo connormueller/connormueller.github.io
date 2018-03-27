@@ -81,13 +81,11 @@
             </tbody>
         </table>
     </div>
-
-    <h2>Activities at Destinations </h2>
+<h2>Activities at Destinations </h2>
     <p>Destination: <input type="text" ng-model="activities"></p>
-
-    <div ng-controller="activitiesCtrl">
+	<div ng-controller="activitiesCtrl">
         <div ng-repeat="activity in results.activity | filter:{activity:activities}"> 
-            <p ng-model="activity.title">{{activity.title}}</p>
+         <p ng-model="activity.title">{{activity.title}}</p>
         </div>
     </div>
 
