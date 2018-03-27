@@ -1,6 +1,4 @@
 var uid = 1;
-
-
 function ContactController($scope) {
 
     $scope.contacts = [
@@ -29,8 +27,7 @@ function ContactController($scope) {
         }
         $scope.newcontact = {};
     }
-
-
+    
     $scope.delete = function (id) {
         for (i in $scope.contacts) {
             if ($scope.contacts[i].id == id) {
@@ -40,7 +37,6 @@ function ContactController($scope) {
         }
 
     }
-
 
     $scope.edit = function (id) {
         for (i in $scope.contacts) {
