@@ -86,7 +86,7 @@
     <p>Destination: <input type="text" ng-model="activities"></p>
 
     <div ng-controller="activitiesCtrl">
-        <div ng-repeat="activity in results.subjects | filter:{activity:activities}"> 
+        <div ng-repeat="activity in results.activity | filter:{activity:activities}"> 
             <p ng-model="activity.title">{{activity.title}}</p>
         </div>
     </div>
