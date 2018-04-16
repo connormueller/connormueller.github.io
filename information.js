@@ -1,8 +1,7 @@
 var uid = 1;
 function ContactController($scope) {
 
-    $scope.contacts = function () [
-        {
+    $scope.contacts = function () {
             id: 0, 'name': 'Connor',
             'email': 'connor@msu.com',
             'phone': '123-456-7890'
@@ -11,7 +10,6 @@ function ContactController($scope) {
             'Destitnation': 'Berlin, Germany'
             'Dates': '7/1/2048-7/14/2018'
         }
-    ];
 
     $scope.saveContact = function () {
 
