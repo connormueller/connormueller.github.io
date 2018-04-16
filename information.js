@@ -1,7 +1,7 @@
 var uid = 1;
 function ContactController($scope) {
 
-    $scope.contacts = [
+    $scope.contacts = function () [
         {
             id: 0, 'name': 'Connor',
             'email': 'connor@msu.com',
