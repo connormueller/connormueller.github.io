@@ -2,7 +2,7 @@ var uid = 1;
 function ContactController($scope) {
 
     $scope.contacts = function () {
-            id: 0, 'name': 'Connor',
+            id: '0', 'name': 'Connor',
             'email': 'connor@msu.com',
             'phone': '123-456-7890'
             'children': '2'
